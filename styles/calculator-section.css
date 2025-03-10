@@ -1,0 +1,80 @@
+/* Calculator Section styles for Balatro Calculator */
+
+.calculator-section {
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #3a5055;
+}
+
+.calculator-intro {
+  max-width: 800px;
+  margin: 0 auto 2em;
+}
+
+.calculator-intro h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.calculator-intro p {
+  color: #bfc7d5;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+
+.calculator-frame {
+  max-width: 1200px;
+  height: 600px;
+  margin: 0 auto 2em;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+#calculator-iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.calculator-cta {
+  margin-top: 1.5em;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4BC292;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  font-size: 1.1em;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button:hover {
+  background-color: #56a887;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .calculator-frame {
+    height: 500px;
+  }
+  
+  .calculator-intro h2 {
+    font-size: 1.6em;
+  }
+  
+  .calculator-intro p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .calculator-frame {
+    height: 400px;
+  }
+}

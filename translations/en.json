@@ -1,0 +1,66 @@
+{
+  "header": {
+    "calculator": "Calculator",
+    "features": "Features",
+    "howToUse": "How to Use",
+    "fullVersion": "Full Version"
+  },
+  "calculator": {
+    "title": "Calculate the Score of Any Balatro Hand",
+    "description": "Use our calculator to simulate various game scenarios and find the best strategy",
+    "ctaButton": "Use Full Calculator"
+  },
+  "features": {
+    "title": "Why Choose Our Balatro Calculator",
+    "cards": {
+      "precision": {
+        "title": "Precise Calculations",
+        "description": "Accurately simulates in-game mechanics for exact score calculations"
+      },
+      "joker": {
+        "title": "Joker Optimization",
+        "description": "Automatically finds the best joker combinations to maximize your score"
+      },
+      "hand": {
+        "title": "Hand Optimization",
+        "description": "Analyzes the best way to play your hand for maximum game benefits"
+      },
+      "deck": {
+        "title": "All Special Decks",
+        "description": "Supports all special decks in the game, including Plasma Deck and The Flint"
+      }
+    },
+    "guide": {
+      "title": "How To Use Balatro Calculator",
+      "steps": [
+        "Add your Joker cards",
+        "Set up your hand",
+        "Apply special effects and modifiers",
+        "View calculated results and recommendations"
+      ]
+    }
+  },
+  "seo": {
+    "article1": {
+      "title": "Balatro Calculator: Essential Tool for Gaming Efficiency",
+      "content": "Balatro combines poker and roguelike elements with complex scoring mechanisms. Our Balatro calculator helps players accurately calculate scores for different hand and joker combinations, enabling smarter in-game decisions."
+    },
+    "article2": {
+      "title": "Maximize Your Game Rewards with Balatro Calculator",
+      "content": "With our Balatro hand calculator, you can simulate various in-game scenarios, calculate scores for different strategies, and discover optimal play sequences and joker combinations. Whether you're a beginner or advanced player, this is an essential tool for elevating your gameplay."
+    },
+    "article3": {
+      "title": "Special Decks and Balatro Calculator",
+      "content": "Special decks like Plasma Deck and The Flint have unique mechanics in Balatro. Our calculator fully supports these special rules, allowing you to accurately calculate scores in these special cases."
+    },
+    "relatedSearches": "Related Searches"
+  },
+  "footer": {
+    "copyright": "© 2025 Balatro Calculator | Not affiliated with the official Balatro game",
+    "original": "Original calculator by: @EFHIII"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文"
+  }
+}

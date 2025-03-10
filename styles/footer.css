@@ -1,0 +1,88 @@
+/* Footer styles for Balatro Calculator */
+
+.footer {
+  background-color: #374244;
+  color: #fff;
+  padding: 2em 1em;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 1.5em;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #bfc7d5;
+  text-decoration: none;
+  margin-right: 1.5em;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #4BC292;
+}
+
+.footer-social {
+  display: flex;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 1em;
+  background-color: #4f6367;
+  border-radius: 50%;
+  color: #bfc7d5;
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #4BC292;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+.footer-copyright {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 1.5em;
+  border-top: 1px solid #4f6367;
+  color: #bfc7d5;
+  font-size: 0.9em;
+}
+
+.footer-copyright p {
+  margin-bottom: 0.5em;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  
+  .footer-links {
+    margin-bottom: 1.5em;
+    justify-content: center;
+  }
+  
+  .footer-links a {
+    margin: 0 0.7em 0.5em;
+  }
+  
+  .footer-social {
+    margin-top: 1em;
+  }
+}

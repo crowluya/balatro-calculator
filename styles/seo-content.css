@@ -1,0 +1,173 @@
+/* SEO Content styles for Balatro Calculator */
+
+.seo-section {
+  background-color: #1f2126;
+  padding: 3rem 0;
+  border-top: 1px solid #3a3f4b;
+}
+
+.seo-section .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.seo-articles {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.seo-article {
+  padding: 1.5rem;
+  background-color: #262a33;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.seo-article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.seo-article h2 {
+  color: #4BC292;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: 'm6x11Plus', sans-serif;
+  font-size: 1.8rem;
+}
+
+.seo-article p {
+  color: #bfc7d5;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.seo-details {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px dashed #3a3f4b;
+}
+
+.seo-details h3 {
+  color: #ffffff;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  font-family: 'm6x11Plus', sans-serif;
+}
+
+.seo-details ul, .seo-details ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #bfc7d5;
+}
+
+.seo-details li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.seo-details strong {
+  color: #4BC292;
+  font-weight: normal;
+  font-family: 'm6x11Plus', sans-serif;
+}
+
+.seo-keywords {
+  padding: 1.5rem;
+  background-color: #262a33;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.seo-keywords h3 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-family: 'm6x11Plus', sans-serif;
+  text-align: center;
+}
+
+.keyword-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.keyword-tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: #343941;
+  color: #bfc7d5;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.keyword-tag:hover {
+  background-color: #4BC292;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* FAQ Section Styles */
+.faq-section {
+  margin-top: 2.5rem;
+}
+
+.faq-section h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px dashed #3a3f4b;
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-item h4 {
+  color: #4BC292;
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+  font-family: 'm6x11Plus', sans-serif;
+}
+
+.faq-item p {
+  color: #bfc7d5;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* 响应式样式 */
+@media (min-width: 768px) {
+  .seo-articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .seo-article:nth-child(3) {
+    grid-column: span 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .seo-articles {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .seo-article:nth-child(3) {
+    grid-column: auto;
+  }
+}

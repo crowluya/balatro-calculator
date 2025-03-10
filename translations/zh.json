@@ -1,0 +1,66 @@
+{
+  "header": {
+    "calculator": "计算器",
+    "features": "特性",
+    "howToUse": "使用指南",
+    "fullVersion": "完整版"
+  },
+  "calculator": {
+    "title": "计算任何Balatro手牌的得分",
+    "description": "使用我们的计算器模拟各种游戏场景，找出最佳策略",
+    "ctaButton": "使用完整版计算器"
+  },
+  "features": {
+    "title": "为什么选择我们的Balatro计算器",
+    "cards": {
+      "precision": {
+        "title": "精确计算",
+        "description": "准确模拟游戏内部机制，提供精确的分数计算"
+      },
+      "joker": {
+        "title": "Joker优化",
+        "description": "自动找出最佳joker组合，提高得分"
+      },
+      "hand": {
+        "title": "手牌优化",
+        "description": "分析最佳出牌方式，最大化游戏收益"
+      },
+      "deck": {
+        "title": "所有特殊牌组",
+        "description": "支持游戏中所有特殊牌组，包括Plasma Deck和The Flint"
+      }
+    },
+    "guide": {
+      "title": "如何使用Balatro计算器",
+      "steps": [
+        "添加你的Joker卡",
+        "设置你的手牌",
+        "应用特殊效果和修饰符",
+        "查看计算结果和建议"
+      ]
+    }
+  },
+  "seo": {
+    "article1": {
+      "title": "Balatro计算器：提升游戏效率的必备工具",
+      "content": "Balatro是一款融合了扑克和roguelike元素的游戏，游戏中的计分机制复杂多变。我们的Balatro计算器能帮助玩家精确计算不同手牌和joker组合的得分，让你在游戏中做出更明智的决策。"
+    },
+    "article2": {
+      "title": "如何使用Balatro计算器最大化游戏收益",
+      "content": "通过我们的Balatro手牌计算器，你可以模拟游戏中的各种情况，计算不同策略的得分，找出最佳的出牌顺序和joker组合。无论你是新手还是高级玩家，这都是提升游戏水平的必备工具。"
+    },
+    "article3": {
+      "title": "Balatro特殊牌组与计算器",
+      "content": "Plasma Deck、The Flint等特殊牌组在Balatro中有独特的机制。我们的计算器完全支持这些特殊规则，让你能够精确计算这些特殊情况下的得分。"
+    },
+    "relatedSearches": "相关搜索"
+  },
+  "footer": {
+    "copyright": "© 2025 Balatro计算器 | 本计算器不隶属于Balatro游戏官方",
+    "original": "原计算器作者: @EFHIII"
+  },
+  "languageSwitcher": {
+    "en": "English",
+    "zh": "中文"
+  }
+}

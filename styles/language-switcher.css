@@ -1,0 +1,37 @@
+/* Language Switcher styles for Balatro Calculator */
+
+.language-switcher {
+  display: flex;
+  align-items: center;
+  margin-left: 1em;
+}
+
+.language-btn {
+  background: none;
+  border: 1px solid #4f6367;
+  color: #bfc7d5;
+  padding: 0.3em 0.7em;
+  margin: 0 0.2em;
+  cursor: pointer;
+  font-family: 'm6x11Plus';
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.language-btn:hover {
+  background-color: #4f6367;
+  color: #fff;
+}
+
+.language-btn.active {
+  background-color: #4BC292;
+  color: #fff;
+  border-color: #4BC292;
+}
+
+/* 响应式样式 */
+@media (max-width: 768px) {
+  .language-switcher {
+    margin: 0.5em 0 0;
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "@context": "http://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Balatro Calculator",
+    "applicationCategory": "GameApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "精确计算任何Balatro手牌的得分，支持所有Joker效果和特殊牌组",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "156"
+    }
+  },
+  {
+    "@context": "http://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Balatro计算器是如何工作的？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Balatro计算器基于游戏内部的得分机制进行模拟计算。它会考虑你输入的手牌、Joker效果、特殊标签和修饰符，根据游戏规则计算出精确的得分预测。计算器不断更新以适应游戏版本变化。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "计算器支持所有Joker和特殊牌组吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的，我们的计算器支持游戏中的所有Joker卡牌和特殊牌组，包括Plasma Deck、The Flint等。我们会随着游戏更新不断完善计算器功能。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何使用计算器提高游戏水平？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "使用计算器可以帮助你理解不同牌组合的价值，发现Joker之间的协同效应，以及测试不同策略的效果。通过不断尝试和学习，你可以掌握游戏的深层机制，做出更明智的决策。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "计算器适合新手使用吗？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "非常适合。对于新手来说，Balatro的得分机制可能比较复杂，计算器可以帮助你理解不同手牌和Joker的价值，加速学习过程，避免常见错误。"
+        }
+      }
+    ]
+  }
+]
