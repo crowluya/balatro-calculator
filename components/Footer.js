@@ -28,9 +28,23 @@ function createFooter() {
         </div>
       </div>
       <div class="footer-copyright">
-        <p> 2025 Balatro Calculator | Not affiliated with the official Balatro game</p>
+        <p>© 2025 Balatro Calculator | Not affiliated with the official Balatro game</p>
         <p>Original calculator by: @EFHIII</p>
       </div>
+      
+      <!-- Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-S7M3VNSHKC"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-S7M3VNSHKC');
+      </script>
+      
+      <!-- Plausible Analytics -->
+      <script defer data-domain="balatro-calculator.com" src="https://bibleversegenerator.net/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+      <script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
     </footer>
   `;
 }

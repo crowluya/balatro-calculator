@@ -1115,5 +1115,5 @@ function clearHand() {
 }
 
 function resetHand() {
-  window.location.replace('/balatro-calculator');
+  window.location.replace('balatro-calculator.html');
 }
